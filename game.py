@@ -135,7 +135,6 @@ def computerTurn(userLog):
   temp = 0
 
   for x in occurences:
-    #something most likely wrong with userLog[str(x)] == "":
     if occurences[x] > 1 and userLog[str(x)] == "":
       temp = 1
       answer = input(">>> Computer\n\"Do you have any {}'s\"".format(x))
